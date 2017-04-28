@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_p2">p2</string>
+    <string name="facebook_app_id">138469136692037</string>
+    <string name="go_to_app">GO TO APP</string>
+    <string name="reserve_now">RESERVE NOW</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="_01022771375">-01022771375</string>
+    <string name="string_01022771375" />
+</resources>
