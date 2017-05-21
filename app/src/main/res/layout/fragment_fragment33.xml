@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/place5"
+    tools:context="com.example.mohamed.myapplication.Fragment33">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/new_theme" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:id="@+id/editbar4"
+        android:text="Booklet"
+        android:textSize="30dp"
+        android:paddingLeft="6dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/cardview_light_background"
+        android:background="#000000" />
+</FrameLayout>

@@ -19,4 +19,6 @@
 
     <style name="new_theme" parent="Theme.AppCompat.NoActionBar" />
 
+    <style name="newbar">15</style>
+
 </resources>

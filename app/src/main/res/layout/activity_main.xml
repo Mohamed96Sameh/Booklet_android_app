@@ -34,6 +34,13 @@
 
             android:theme="@style/new_theme" />
 
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone" />
+
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
@@ -43,12 +50,20 @@
             android:text="@string/contact_us"
             android:theme="@style/new_theme" />
 
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="getdiscount"
+            android:text="Get Discount"
+            android:theme="@style/new_theme" />
+
         <ImageButton
             android:id="@+id/imageButton2"
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/mtheme"
+            android:background="@drawable/ourmenu"
             android:onClick="sendMessage3" />
 
     </LinearLayout>

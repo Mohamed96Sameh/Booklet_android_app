@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/brown33"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mohamed.myapplication.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/bookletmain"
+
+            />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="getdiscount"
+            android:text="Get Discount"
+            android:theme="@style/new_theme" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="book"
+            android:text="BOOK OF THE MONTH"
+
+            android:theme="@style/new_theme" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="contact"
+
+            android:text="@string/contact_us"
+            android:theme="@style/new_theme" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showphotos"
+            android:text="Album"
+            android:theme="@style/new_theme"
+            tools:theme="@style/new_theme" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:background="@drawable/ourmenu"
+            android:onClick="showmenu" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1.24"
+            android:background="@drawable/book78"
+            android:onClick="booknow" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
